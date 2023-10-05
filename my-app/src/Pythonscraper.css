@@ -1,0 +1,14 @@
+.header3 {
+    opacity: 1;
+    color: gray;
+    text-align: center;
+    font-family: Andalé-Mono, monospace;
+    font-size: 200%;
+    margin-top: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.header3 .scraper {
+    font-size: 24px;
+}

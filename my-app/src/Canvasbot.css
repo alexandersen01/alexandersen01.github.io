@@ -1,0 +1,14 @@
+.canvasbot {
+    opacity: 1;
+    color: gray;
+    text-align: center;
+    font-family: Andalé-Mono, monospace;
+    font-size: 200%;
+    margin-top: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.canvasbot2 {
+    font-size: 24px;
+}

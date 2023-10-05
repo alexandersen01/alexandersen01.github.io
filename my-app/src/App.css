@@ -1,0 +1,102 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  /* overflow: hidden; */
+}
+
+#background {
+  position: relative;
+  background-image: url('/Users/jakobalexandersen/alexandersen01.github.io/my-app/src/120950-earth-globe-atmosphere-horizon-sunrise-blue-dark-background-hd.png'); /* Update this */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+
+
+#background.fade-background {
+  opacity: 0.2;
+}
+
+#background h1 {
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+#background p {
+  font-size: 18px;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  position: absolute;
+  top: 2000px;
+}
+
+/* Additional styling for the new content */
+.content h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.header {
+  color: gray;
+  text-align: center;
+  font-family: Andalé-Mono, monospace;
+  font-size: 200%;
+  margin-top: 150px;
+}
+
+.button {
+  background-image: url('/Users/jakobalexandersen/react-time/react-reeee/public/fullscreen.png');
+  background-size: cover;
+  z-index: 9999;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.header2 {
+  color: gray;
+  text-align: center;
+  font-family: Andalé-Mono, monospace;
+  font-size: 200%;
+  margin-top: 80px;
+}
+
+.scroll-btns {
+  display: flex;
+  text-align: center;
+  margin-top: 45%;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.scroll-btns button {
+  font-family: Andalé-Mono, monospace;
+  font-size: 24px;
+  color: gray;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  border: 2px dashed gray;
+  border-radius: 12px;
+
+}

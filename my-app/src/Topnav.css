@@ -1,0 +1,37 @@
+/* Topnav.css */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+  }
+  
+  .topnav.fade-out {
+    opacity: 0;
+  }
+  
+  .topnav.fade-in {
+    opacity: 1;
+  }
+  
+  .social {
+    width: 30px;
+    margin: 5px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Adjust styling as needed */
+  
